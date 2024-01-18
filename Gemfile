@@ -68,3 +68,4 @@ end
 
 gem "tailwindcss-rails", "~> 2.3"
 gem 'letter_opener_web', '~> 2.0'
+gem "postmark-rails", "~> 0.22.1"
