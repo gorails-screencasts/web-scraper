@@ -7,6 +7,6 @@ class UserMailer < ApplicationMailer
   #
   def success
     @page = params[:result].page
-    mail to: "chris@gorails.com"
+    mail to: ENV.fetch("TO_EMAIL", "to@example.org")
   end
 end
